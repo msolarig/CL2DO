@@ -1,4 +1,4 @@
-# 📒 CL2DO - A CLI 2do List
+# 📒 CL2DO - A Simple CLI 2do List
 
 Are you tired of over-complicated, resource-intensive applications that always seem to have a subscription-based model?
 
