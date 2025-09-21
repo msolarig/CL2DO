@@ -22,7 +22,7 @@ A simple task manager that runs straight from the terminal. No background proces
 
 ## Installation
 
-CL2DO can be installed and ran natively on MacOS, Windows, and Linux by following these steps:
+CL2DO can be installed and ran natively on MacOS, Windows, and Linux machines by following these steps:
 	
  1.	Clone the repository:
 
@@ -44,7 +44,7 @@ CL2DO can be installed and ran natively on MacOS, Windows, and Linux by followin
 	python3 main.py
 	```
  
- The application has not been bundled into an executable file or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOs' Automator or a hot key manager.
+ The application has not been bundled into an executable or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOS' Automator or a hot key manager.
  
  This is an example of how I have it setup with an automator .app! I have included the same png with the identifier I used (notebook emoji) in the assets directory.
  
@@ -60,11 +60,11 @@ Once running, the app displays your current task list and waits for commands. Co
 Entire List of Commands
 * add '<task>'
 * rem '<task>'
-* remall '<task>'
+* remall
 * check '<task>'
-* checkall '<task>'
+* checkall
 * uncheck '<task>'
-* uncheckall '<task>'
+* uncheckall
 * q
 
 Command Examples
