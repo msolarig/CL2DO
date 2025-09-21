@@ -46,6 +46,10 @@ CL2DO can be installed and ran natively on MacOS, Windows, and Linux by followin
  
  The application has not been bundled into an executable file or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOs' Automator or a hot key manager.
  
+ This is an example of how I have it setup with an automator .app! I have included the same png with the identifier I used (notebook emoji) in the assets directory.
+ 
+ ![Alt text](/assets/logo(?).png?raw=true "Screenshot 1")
+ 
 
 ---
 
