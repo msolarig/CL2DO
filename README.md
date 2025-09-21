@@ -44,7 +44,7 @@ CL2DO can be installed and ran natively on MacOS, Windows, and Linux by followin
 	python3 main.py
 	```
  
- The application has not been bundled into an executable file or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOs' Automator or a hot key manager.
+ The application has not been bundled into an executable or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOS' Automator or a hot key manager.
  
 
 ---
