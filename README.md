@@ -22,7 +22,7 @@ A simple task manager that runs straight from the terminal. No background proces
 
 ## Installation
 
-CL2DO can be installed and ran natively on MacOS, Windows, and Linux by following these steps:
+CL2DO can be installed and ran natively on MacOS, Windows, and Linux machines by following these steps:
 	
  1.	Clone the repository:
 
