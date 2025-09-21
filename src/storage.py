@@ -17,4 +17,4 @@ def save_file(tasks):
     'writes to tasks file'
     with open(TASK_FILE, 'w') as task_file:
         for task in tasks:
-            task_file.write(str(task) + '\n')
+            task_file.write(f'{str(task)}\n')

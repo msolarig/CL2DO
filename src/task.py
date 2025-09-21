@@ -17,7 +17,6 @@ def add(task):
     tasks = load_file()
     tasks.append(task)
     save_file(tasks)
-    return 
 
 def rem(task):
     'remove a task from the list'
@@ -26,7 +25,11 @@ def rem(task):
         if i.task == task.task.lower():
             tasks.remove(i)
     save_file(tasks)
-    return 
+
+def rem_all():
+    'remove all items from the list'
+    tasks = []
+    save_file(tasks)
 
 def check(task):
     'mark a task as completed'
@@ -35,13 +38,25 @@ def check(task):
         if i.task == task.task.lower():
             i.done = True
     save_file(tasks)
-    return 
+
+def check_all():
+    'check all items in the list'
+    tasks = load_file()
+    for i in tasks:
+        i.done = True
+    save_file(tasks)
 
 def uncheck(task):
     'mark a task as incomplete'
     tasks = load_file()
     for i in tasks:
         if i.task == task.task.lower():
-            i.done = False 
+            i.done = False
     save_file(tasks)
-    return 
+
+def uncheck_all():
+    'uncheck all items in the list'
+    tasks = load_file()
+    for i in tasks:
+        i.done = False
+    save_file(tasks)

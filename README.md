@@ -16,17 +16,20 @@ A simple task manager that runs straight from the terminal. No background proces
 *	Mark tasks as complete or incomplete
 *   Automatic persistence: tasks are saved locally and loaded every time the app runs
 *	Simple, clear terminal interface with real-time task list display
+*   Clear, check, uncheck entire list with a single command
 
 ---
 
 ## Installation
+
+CL2DO can be installed and ran natively on MacOS, Windows, and Linux by following these steps:
 	
  1.	Clone the repository:
 
 	```
  	git clone https://github.com/msolarig/CL2DO.git
 
- 	cd CL2DO
+ 	cd CL2DO/src
 	```
  
 2.	Make sure you have Python 3 installed on your system:
@@ -40,7 +43,9 @@ A simple task manager that runs straight from the terminal. No background proces
 	```
 	python3 main.py
 	```
-
+ 
+ The application has not been bundled into an executable file or .app file due to distribution limitations. It is recommended to automate the access to CL2DO with additional tools such as MacOs' Automator or a hot key manager.
+ 
 
 ---
 
@@ -51,8 +56,11 @@ Once running, the app displays your current task list and waits for commands. Co
 Entire List of Commands
 * add '<task>'
 * rem '<task>'
+* remall '<task>'
 * check '<task>'
+* checkall '<task>'
 * uncheck '<task>'
+* uncheckall '<task>'
 * q
 
 Command Examples
@@ -60,6 +68,9 @@ Command Examples
 * check Buy groceries
 * uncheck Buy groceries
 * rem Buy groceries
+* remall
+* checkall
+* uncheckall
 * q (Quit Application)
 
 Tasks are displayed in the format:
@@ -84,19 +95,9 @@ Tasks are displayed in the format:
 
 ---
 
-## Future Improvements
-
-* Error handling for invalid commands or missing tasks
-* Task numbering for easier selection
-* Optional priority or category system
-* Extra functionality such as mark all or clean list
-* Potential packaging as a standalone executable for macOS, Linux, and Windows
-
----
-
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repo, submit issues, or propose enhancements.
+This is a project I made primarily for personal use. Still, contributions are welcome! Feel free to fork the repo, submit issues, or propose new features.
 
 ---
 
