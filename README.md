@@ -48,7 +48,7 @@ CL2DO can be installed and ran natively on MacOS, Windows, and Linux machines by
  
  This is an example of how I have it setup with an automator .app! I have included the same png with the identifier I used (notebook emoji) in the assets directory.
  
- ![Alt text](/assets/logo(?).png?raw=true "Screenshot 1")
+ ![Alt text](/assets/screenshots/screenshot_2(?).png?raw=true "screenshot 2")
  
 
 ---
