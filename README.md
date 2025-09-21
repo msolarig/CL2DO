@@ -80,7 +80,7 @@ Tasks are displayed in the format:
 ---
 ## Screenshots
 
-![Alt text](/screenshots/screenshot_1.png?raw=true "Screenshot 1")
+![Alt text](/assets/screenshots/screenshot_1.png?raw=true "Screenshot 1")
 
 ---
 

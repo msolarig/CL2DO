@@ -1,16 +1,16 @@
 from storage import *
 
 class Task:
-        
+
     def __init__(self, task, done = False):
         self.task = task.lower()
         self.done = done
-        
+
     def __str__(self):
         if self.done == False:
-            return f'[ ] {self.task}'
+            return f'[ ] {self.task.capitalize()}'
         else:
-            return f'[X] {self.task}'
+            return f'[X] {self.task.capitalize()}'
 
 def add(task):
     'add a task to the list'

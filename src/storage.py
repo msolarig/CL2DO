@@ -1,6 +1,6 @@
 import os
 
-TASK_FILE = os.path.join(os.path.dirname(__file__), 'task_file.txt')
+TASK_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'task_file.txt')
 
 def load_file():
     'reads tasks file'
