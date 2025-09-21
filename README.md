@@ -56,11 +56,11 @@ Once running, the app displays your current task list and waits for commands. Co
 Entire List of Commands
 * add '<task>'
 * rem '<task>'
-* remall '<task>'
+* remall
 * check '<task>'
-* checkall '<task>'
+* checkall
 * uncheck '<task>'
-* uncheckall '<task>'
+* uncheckall
 * q
 
 Command Examples
