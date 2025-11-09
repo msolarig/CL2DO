@@ -88,7 +88,7 @@ Tasks are displayed in the format:
 
 ## File Storage
 
-* Tasks are stored in a simple text file called task_file.txt within the project directory.
+* Tasks are stored in a text file called task_file.txt within the project directory.
 * Each line represents a task with its status, e.g., [ ] Buy groceries or [x] Walk the dog.
 * This makes it easy to edit or back up tasks manually if needed.
 
